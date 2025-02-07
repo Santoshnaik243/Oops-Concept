@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/*
+ * Occurs when we have only one super class and multiple sub classes.
+ */
 class A{
     int a, b;
     int result = 0;
@@ -47,11 +49,7 @@ class D extends C{
     public void show(){
         System.out.println("Division :"+result);
     }
-
 }
-
-
-
 public class Multilevelinherit {
     public static void main(String[] args) {
        // B b1 = new B();
@@ -69,10 +67,7 @@ public class Multilevelinherit {
         d1.calculate();
         d1.show();
        
-       
-
-
-        
+         
     }
     
 }

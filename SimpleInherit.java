@@ -1,4 +1,8 @@
-class Aa{
+/*
+ * Consists of one parent class and one child class.
+ */
+
+class Add{
     int a , b, result;
     private String str = "Sannto";
     public double sum(int x, int y){
@@ -6,10 +10,8 @@ class Aa{
         b = y;
      return   a + b;
     }
-
-
 }
-class B1 extends Aa{
+class Multiply extends Add{
      public double calculate(){
         a = 7;
         b = 9;
@@ -21,24 +23,15 @@ class B1 extends Aa{
     }
 
 }
-
-
-
-
 public class SimpleInherit {
     public static void main(String[] args) {
-        B1 b = new B1();
-        b.calculate();
-        b.print();
+      Multiply m = new Multiply();
+        m.calculate();
+        m.print();
         //b1.print1();
 
-        double res = b.sum(3, 5);
-        System.out.println(res);
-       
-        
-
-        
-
-        
+        double res = m.sum(3, 5);
+        System.out.println("Addition is "+res);
+         
     }
 }

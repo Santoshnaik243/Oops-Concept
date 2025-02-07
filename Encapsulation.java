@@ -1,3 +1,7 @@
+/*
+ Wrapping the data(fields) and methods(functions) into a single unit.
+ */
+
 import java.util.Scanner;
 
 class Bank{

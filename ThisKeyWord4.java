@@ -1,3 +1,6 @@
+/*
+ * It also called parameterized constructor of it's own class.
+ */
 class A1{
     A1(){
         this(8888);
@@ -7,8 +10,6 @@ class A1{
 
     }
 }
-
-
 
 public class ThisKeyWord4 {
     public static void main(String[] args) {

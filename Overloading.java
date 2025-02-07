@@ -1,3 +1,8 @@
+/*
+ * Whenever a class contain more than one methods with same name 
+ * and different parameters called method overloading
+ */
+
 class Addition{
     void print(){
        int  a = 3;

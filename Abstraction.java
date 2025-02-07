@@ -1,13 +1,13 @@
 /*Abstractin in java is process of hiding the implementation details and showing only the 
 essential features of an object. It allows developers to focus on what an object does 
 rather than how it does it.
-* Abstraction is achieved through abstract and interfaces.
+* Abstraction is achieved through abstract class and interfaces.
 */
 
 abstract class Animal{
     public void Legs(){
         System.out.println("All Animals have 4 legs:");
-        
+
     }
     abstract void Sound();
     abstract void Eat();

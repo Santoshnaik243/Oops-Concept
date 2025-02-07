@@ -1,3 +1,7 @@
+/*
+ * A constructor through which we can pass one or more parameters is called parameterized constructor.
+ * These parameters are used to initialize the instance variables of the class when an object is created.
+ */
 class Inner {
     int a ;
     String s;
@@ -16,8 +20,6 @@ class Inner {
      
     
 }
-
-
 
 public class ParaConstructor {
     public static void main(String[] args) {

@@ -1,3 +1,8 @@
+/*
+ * Where multiple sub classes inherit from a single parent class.
+ */
+
+
 class Animal{
     public void legs(){
         System.out.println("Animals has 4 legs:");

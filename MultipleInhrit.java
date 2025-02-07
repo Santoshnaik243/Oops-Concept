@@ -1,3 +1,10 @@
+/*
+We can achieve multiple inheritance through interfaces where a class can inherit 
+properties of more than one parent class.
+
+*/ 
+ 
+ 
  interface Apple{
    abstract void show();   //public + abstract
 

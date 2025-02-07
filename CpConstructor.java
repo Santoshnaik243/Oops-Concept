@@ -1,3 +1,8 @@
+/*
+ * It is a constructor that creates an object using another object of the same class.
+ * Whenever we pass object reference to the constructor then it is called copy constructor.
+ */
+
 class A3{
     int a; String s;
     A3(int x, String y){
@@ -10,10 +15,7 @@ class A3{
         s = ref.s;
         System.out.println(a+" "+s);
 
-
     }
-
-  
 
 }
 
