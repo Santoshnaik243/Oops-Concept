@@ -2,57 +2,49 @@
  * Where multiple sub classes inherit from a single parent class.
  */
 
-
-class Animal{
+class Birds{
     public void legs(){
-        System.out.println("Animals has 4 legs:");
-
+        System.out.println("Animals has 2 legs:");
     }
+
     public void eye(){
         System.out.println("Animals has 2 eyes:");
 
     }
-
-
 }
-class Bull extends Animal{
+class Kingfisher extends Birds{
     public void eat(){
-        System.out.println("Bull eating grass:");
+        System.out.println("Kingfisher eat Fish:");
 
     }
    
-
 }
-class Cat extends Animal{
+class Peacock extends Birds{
     public void run(){
-        System.out.println("Cat runs mid-level fast:");
+        System.out.println("Cat runs low-level fast:");
 
-    }
-    
-
+    }  
 }
-class Dog extends Animal{
+class Hen extends Birds{
     public void live(){
-        System.out.println("Dog live in house:");
+        System.out.println("Hen live in house:");
 
     }
-
 }
 public class Hierarchicalinherit {
     public static void main(String[] args) {
-        Bull b1 = new Bull();
+        Kingfisher b1 = new Kingfisher();
         b1.legs();
         b1.eye();
         b1.eat();
-        Cat c1 = new Cat();
+        Peacock c1 = new Peacock();
         c1.legs();;
         c1.eye();
         c1.run();
-        Dog d1 = new Dog();
+        Hen d1 = new Hen();
         d1.legs();
         d1.eye();
         d1.live();
-        
-        
+            
     }
 }

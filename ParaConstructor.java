@@ -17,8 +17,7 @@ class Inner {
         y = x;
         System.out.println(a+" " + y);
     }
-     
-    
+       
 }
 
 public class ParaConstructor {

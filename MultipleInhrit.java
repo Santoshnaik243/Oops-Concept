@@ -8,7 +8,6 @@ properties of more than one parent class.
  interface Apple{
    abstract void show();   //public + abstract
 
-
 }
 interface Banana{
     void show();   //public + abstract
