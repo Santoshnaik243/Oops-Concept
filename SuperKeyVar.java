@@ -1,10 +1,10 @@
 
- class Apple  {
+ class Appl {
     int a = 10;
  
 }
 
-class Banan extends Apple{
+class Banan extends Appl{
       int a = 20;
       void show(){
         System.out.println(a);
